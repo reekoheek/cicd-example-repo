@@ -1,0 +1,14 @@
+version: "1"
+stages:
+  main:
+    files:
+      - docker-compose.yml
+  image:
+    files:
+      - docker-compose.image.yml
+  fail:
+    files:
+      - docker-compose.fail.yml
+  long:
+    files:
+      - docker-compose.long.yml
