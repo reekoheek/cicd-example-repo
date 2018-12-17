@@ -10,5 +10,6 @@ stages:
     files:
       - docker-compose.fail.yml
   long:
+    detached: true
     files:
       - docker-compose.long.yml
