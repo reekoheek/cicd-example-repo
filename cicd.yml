@@ -6,9 +6,9 @@ stages:
   image:
     files:
       - docker-compose.image.yml
-  # fail:
-  #   files:
-  #     - docker-compose.fail.yml
+  fail:
+    files:
+      - docker-compose.fail.yml
   long:
     detach: true
     files:
